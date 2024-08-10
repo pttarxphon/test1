@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Prompt", system-ui;
+}
+nav{
+    width: 100%;
+    height: 7vw;
+}
+.nav-container{
+    max-width: 90vw;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logonav{
+    width: 8vw;
+    object-fit: contain;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    margin-right: 5vw;
+    font-size: .8rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+.navbar button{
+    height: 40px;
+    width: 80px;
+    border: none;
+    background: #10B981;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: .8rem;
+}
+.nav-yearbook{
+    max-width: 90vw;
+    height: 25vw;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(92,84,84,1) 50%, rgba(0,0,0,1) 100%);
+}
+.nav-yearbook img{
+    width: 100vw;
+    height: auto;
+    border: 1px solid red;
+    object-fit: cover;
+    opacity: 0.2;
+}
+.banner-text{
+    position: absolute;
+    top: 9.375rem;
+    left: 25rem;
+}
+.banner-textt{
+    position: absolute;
+    top: 9.375rem;
+    left: 34.375rem;
+}
+.banner-text h4{
+    color: white;
+    font-size: 5rem ;
+    font-weight: 400;
+}
+.banner-textt h3 {
+    color: white;
+    font-size: 80px;
+    font-weight: 400;
+}
+.card-yearbook{
+    max-width: 90vw;
+    height: 200vw;
+    margin: 0 auto;
+    background: white;
+    border: 1px solid red;
+}
+.card-img img {
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+.card-con{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+}
+.card-list{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.card-list:hover{
+    transform: scaleX(1.01);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.card-text{
+    padding: 10px;
+}
+.card-btn{
+    padding: 10px;
+}
+.card-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-btn button {
+    border: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background: #0B5ED7;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card-btn button a{
+    color: white;
+    text-decoration: none;
+}
+
+.pf-list{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.pf-list img{
+    width: 260px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px auto;
+    object-fit: contain;
+}
+
+.pf-list:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.8s;
+}
+.pf-con{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 1rem;
+}
+
+.pf-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pf-name a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.pf-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pf-contact i {
+    margin-left: 10px;
+    cursor: pointer;
+}
